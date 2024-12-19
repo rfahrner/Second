@@ -17,7 +17,7 @@ title {
 #floatMe {
     float: right;
 }
-head {
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,4 +32,5 @@ ul > li {
 li a {
     display: block;
     text-align: center;
+    padding: 10px 20px;
 }
