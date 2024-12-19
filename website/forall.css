@@ -5,15 +5,6 @@ body {
 a:hover {
     color: pink;
 }
-nav {
-    background-color: aqua;
-}
-p {
-    background-color: green;
-}
-title {
-    background-color: maroon;
-}
 #floatMe {
     float: right;
 }
@@ -42,4 +33,9 @@ h1 {
 }
 img {
     width: 400px;
+}
+aside {
+    width: 30%;
+    float: right;
+    background-color: lightblue;
 }
