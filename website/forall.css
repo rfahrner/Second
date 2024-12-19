@@ -36,9 +36,9 @@ h1 {
     padding-left: 35px;
 }
 img {
-    padding-left: 35%;
-    padding-top: 25px;
     width: 400px;
+    float: right;
+    
 }
 aside {
     flex: 0 1 20%;
