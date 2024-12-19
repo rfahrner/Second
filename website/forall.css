@@ -15,5 +15,13 @@ title {
     background-color: maroon;
 }
 #floatMe {
-    
+    float: right;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul > li {
+    float: left;
 }
