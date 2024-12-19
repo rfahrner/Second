@@ -34,3 +34,7 @@ li a {
     text-align: center;
     padding: 10px 20px;
 }
+main {
+    position: relative;
+    top: auto;
+}
