@@ -17,7 +17,7 @@ title {
 #floatMe {
     float: right;
 }
-nav {
+head {
     position: fixed;
     top: 0;
     width: 100%;
