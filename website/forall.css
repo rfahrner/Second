@@ -25,4 +25,5 @@ nav {
 ul > li {
     list-style-type: none;
     float: left;
+    padding: 14px 16px;
 }
