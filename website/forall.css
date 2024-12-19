@@ -35,6 +35,5 @@ li a {
     padding: 10px 20px;
 }
 main {
-    position: relative;
-    top: auto;
+    padding-top: 30px;
 }
