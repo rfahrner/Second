@@ -51,4 +51,5 @@ aside {
 }
 #userForm {
     padding-top: 100px;
+    flex: 0 1 80%;
 }
