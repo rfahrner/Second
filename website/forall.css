@@ -34,7 +34,6 @@ h1 {
 }
 img {
     width: 400px;
-    float: top;
     float: right; 
 }
 aside {
@@ -42,6 +41,7 @@ aside {
     width: 30%;
     height: 100%;
     background-color: lightblue;
+    background-size: auto;
     padding-top: 100px;
 }
 #container {
