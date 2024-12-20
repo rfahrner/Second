@@ -34,7 +34,6 @@ h1 {
 }
 img {
     width: 400px;
-    float: right; 
 }
 aside {
     flex: 0 1 20%;
@@ -54,4 +53,7 @@ aside {
 }
 .changeColor {
     color: chocolate;
+}
+#floatMe {
+    float: right;
 }
