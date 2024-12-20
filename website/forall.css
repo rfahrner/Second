@@ -58,4 +58,5 @@ aside {
     float: right;
     padding-top: 115px;
     padding-right: 10px;
+    flex-shrink: 0;
 }
