@@ -35,6 +35,7 @@ h1 {
 img {
     width: 400px;
     float: right;
+    display: inline;
 
     
 }
@@ -50,4 +51,5 @@ aside {
 }
 #userForm {
     padding-top: 100px;
+    display: flex;
 }
