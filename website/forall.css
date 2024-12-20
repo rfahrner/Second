@@ -46,6 +46,7 @@ aside {
 }
 #container {
     display: flex;
+    height: fit-content;
 }
 #userForm {
     padding-top: 100px;
