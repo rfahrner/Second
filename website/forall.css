@@ -34,10 +34,8 @@ h1 {
 }
 img {
     width: 400px;
-    float: right;
-    display: inline-block;
-
-    
+    float: top;
+    float: right; 
 }
 aside {
     flex: 0 1 20%;
