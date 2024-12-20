@@ -1,17 +1,37 @@
-<form>
-    <p>A quick survey to help us get to know you! Tell us about yourself!</p>
-    <label for="first">First Name:></label>
-    <input type="text" id="first" name="first">
-    <label for="last">Last Name:></label>
-    <input type="text" id="last" name="last">
-    <label for="email">Email Address:></label>
-    <input type="text" id="email" name="email">
-    <label for="verifyEmail">Re Enter Email Address:</label>
-    <input type="text" id="verifyEmail" name="verifyEmail">
-    <if verifyEmail != email>
-        <p>*emails do not match</p>
-    </if>
-    <label for="questions">Would you like to ask any Tennessee related questions?></label>
-        <textarea id="questions" name="questions" rows="4" cols="50"></textarea>
-    <input type="button">    
-</form>
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <link rel="stylesheet" href="forall.css">
+        <title>Tenneessee</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tenneessee</h1>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home </a></li>
+                    <li><a href="nashville.html">Nashville </a></li>
+                    <li><a href="knoxville.html">Knoxville </a></li>
+                    <li><a href="memphis.html">Memphis </a></li>
+                    <li><a href="form.html">Questions</a></li>
+                </ul>
+            </nav>
+        </header>
+    <form>
+        <p>A quick survey to help us get to know you! Tell us about yourself!</p>
+        <label for="first">First Name:></label>
+        <input type="text" id="first" name="first">
+        <label for="last">Last Name:></label>
+        <input type="text" id="last" name="last">
+        <label for="email">Email Address:></label>
+        <input type="text" id="email" name="email">
+        <label for="verifyEmail">Re Enter Email Address:</label>
+        <input type="text" id="verifyEmail" name="verifyEmail">
+        <if verifyEmail != email>
+            <p>*emails do not match</p>
+        </if>
+        <label for="questions">Would you like to ask any Tennessee related questions?></label>
+            <textarea id="questions" name="questions" rows="4" cols="50"></textarea>
+        <input type="button">    
+    </form>
+    </body>
