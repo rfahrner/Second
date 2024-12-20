@@ -41,7 +41,7 @@ aside {
     width: 30%;
     height: 100%;
     background-color: lightblue;
-    background-size: auto;
+    background-size: 100%;
     padding-top: 100px;
 }
 #container {
