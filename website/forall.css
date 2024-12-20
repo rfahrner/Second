@@ -26,8 +26,6 @@ li a {
 }
 main {
     flex: 0 1 80%;
-    display: flex;
-    align-items: flex-start;
     padding-top: 90px;
 
 }
