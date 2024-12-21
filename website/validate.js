@@ -5,7 +5,7 @@ function emailVerify(event) {
     let two = document.email.value
     if (one == two) {return true}
         else
-            console.log("Emails entered do not match")
+            return console.log("Emails entered do not match")
             event.preventDefault();
 
 }
