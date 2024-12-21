@@ -1,7 +1,12 @@
-function emailVerify() {
-    var one = document.getElementById('verifyEmail')
-    var two = document.getElementById('email')
+let form = document.getElementById('userForm')
+
+function emailVerify(event) {
+    let one = document.verifyEmail.value
+    let two = document.email.value
     if (one == two) {return true}
         else
-            return alert("Emails do not match")
+            console.log("Emails entered do not match")
+            event.preventDefault();
+
 }
+form.addEventListener("submit",emailVerify)
