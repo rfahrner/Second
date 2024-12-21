@@ -13,15 +13,17 @@ header {
     color: beige;
 }
 
-li a {
-    display: block;
-    text-align: center;
-    padding: 0px 20px 5px 0px;
+#navagation {
     list-style-type: none;
     float: left;
     padding: 14x 0px;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 0px 20px 5px 0px;
 }
 main {
     flex: 0 1 80%;
