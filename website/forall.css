@@ -13,13 +13,7 @@ header {
     color: beige;
 }
 
- ul > li {
-    list-style-type: none;
-    float: left;
-    padding: 14x 0px;
-    margin: 0;
-    padding: 0; 
-}
+
 li a {
     display: block;
     text-align: center;
